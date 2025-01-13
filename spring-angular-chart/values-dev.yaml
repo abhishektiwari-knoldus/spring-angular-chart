@@ -1,0 +1,25 @@
+namespace: dev
+
+frontend:
+  repository:
+    image: abhishek00007/poc-angular-app:6.0
+  replicas: 1
+  target:
+    port: 80
+  service:
+    port: 8081  
+  ingress:
+    host: dev-frontend.nginxonline.com
+    annotations:
+      nginx.ingress.kubernetes.io/rewrite-target: /
+
+backend:
+  repository:
+    image: abhishek00007/poc-spring-app:6.0
+  replicas: 1
+  service:
+    port: 8080
+  ingress:
+    host: dev-backend.nginxonline.com
+    annotations:
+      nginx.ingress.kubernetes.io/rewrite-target: /
