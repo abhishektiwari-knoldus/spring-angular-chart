@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  angular-chart:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-01-16T18:06:09.753534559+05:30"
+    description: Helm chart for deploying Angular
+    digest: afb1e583fe1a671671665578677206eba0338b40a1fd0d806b79e3ae3302ac6f
+    name: angular-chart
+    type: application
+    urls:
+    - https://abhishektiwari-knoldus.github.io/spring-angular-chart/angular-chart-1.0.0.tgz
+    version: 1.0.0
+generated: "2025-01-16T18:06:09.753256616+05:30"
