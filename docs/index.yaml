@@ -9,6 +9,6 @@ entries:
     name: angular-chart
     type: application
     urls:
-    - https://abhishektiwari-knoldus.github.io/spring-angular-chart/docs/angular-chart-1.0.0.tgz
+    - https://abhishektiwari-knoldus.github.io/spring-angular-chart/angular-chart-1.0.0.tgz
     version: 1.0.0
 generated: "2025-01-16T18:06:09.753256616+05:30"
